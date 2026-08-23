@@ -4,119 +4,74 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Story — L'Usine</title>
-  <meta name="description" content="The story of L'Usine: a Saigon lifestyle house of cafe, shop, and table.">
   <link rel="icon" href="favicon.svg" type="image/svg+xml">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&family=Outfit:wght@300;400;500&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500&family=Outfit:wght@300;400;500&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-  <header class="site-header">
+  <header class="site-header is-solid">
     <a class="logo" href="index.html">L'USINE</a>
     <button class="nav-toggle" aria-label="Menu"><span></span></button>
     <nav class="nav">
-      <a class="lang-vi active" href="story.html">Câu chuyện</a>
-      <a class="lang-en active" href="story.html">Story</a>
-      <a class="lang-vi" href="locations.html">Cửa hàng</a>
-      <a class="lang-en" href="locations.html">Locations</a>
-      <a class="lang-vi" href="menu.html">Thực đơn</a>
-      <a class="lang-en" href="menu.html">Menu</a>
-      <a class="lang-vi" href="visit.html">Ghé thăm</a>
-      <a class="lang-en" href="visit.html">Visit</a>
+      <a class="lang-vi active" href="story.html">Câu chuyện</a><a class="lang-en active" href="story.html">Story</a>
+      <a class="lang-vi" href="locations.html">Nhà</a><a class="lang-en" href="locations.html">Houses</a>
+      <a class="lang-vi" href="menu.html">Thực đơn</a><a class="lang-en" href="menu.html">Menu</a>
+      <a href="shop.html">Shop</a>
+      <a href="journal.html">Journal</a>
+      <a class="lang-vi" href="visit.html">Ghé thăm</a><a class="lang-en" href="visit.html">Visit</a>
     </nav>
     <div class="header-actions">
-      <div class="lang-switch">
-        <button type="button" data-lang-btn="vi">VI</button>
-        <span>/</span>
-        <button type="button" data-lang-btn="en">EN</button>
-      </div>
-      <a class="btn lang-vi" href="visit.html">Đặt bàn</a>
-      <a class="btn lang-en" href="visit.html">Book a table</a>
+      <div class="lang-switch"><button type="button" data-lang-btn="vi">VI</button><span>/</span><button type="button" data-lang-btn="en">EN</button></div>
+      <a class="btn lang-vi" href="visit.html">Đặt bàn</a><a class="btn lang-en" href="visit.html">Book a table</a>
     </div>
   </header>
-
-  <main id="main">
+  <main>
     <section class="page-hero wrap">
-      <p class="kicker">Our story</p>
+      <p class="kicker">Story</p>
       <h1 class="lang-vi">Một nhà ở giữa thành phố.</h1>
       <h1 class="lang-en">A house in the middle of the city.</h1>
-      <p class="lang-vi">L'Usine lớn lên thành một thương hiệu lifestyle của Việt Nam: cà phê, shop, và bàn ăn trong cùng một không gian.</p>
-      <p class="lang-en">L'Usine grew into one of Vietnam's loved lifestyle houses: cafe, shop, and table under one roof.</p>
+      <p class="lang-vi">L'Usine lớn lên thành nhà lifestyle ở Việt Nam: cà phê, shop, bàn ăn dưới một mái.</p>
+      <p class="lang-en">L'Usine grew into a lifestyle house in Vietnam: cafe, shop, and table under one roof.</p>
     </section>
-
-    <section class="section" style="padding-top:24px">
-      <div class="wrap story-chapters">
-        <article class="split">
-          <img src="images/hero.jpg" alt="Cafe interior with plantation shutters">
+    <section class="section" style="padding-top:12px">
+      <div class="wrap">
+        <article class="chapter">
+          <div class="postcard"><img src="images/hero.jpg" alt="Morning cafe"></div>
           <div>
-            <p class="chapter-num">01</p>
-            <h2 class="lang-vi">Nhìn Sài Gòn từ một khoảng cách.</h2>
-            <h2 class="lang-en">Seeing Saigon from a slight distance.</h2>
-            <p class="lede lang-vi">Chúng tôi không sinh ra ở đây. Khoảng cách đó cho một góc nhìn: thành phố này đông, nóng, và rất đáng kể lại. L'Usine là chỗ ngồi trong câu chuyện đó.</p>
-            <p class="lede lang-en">We are not native to Saigon. That distance gave us a way of looking: a city loud, hot, and worth telling. L'Usine is a seat inside that story.</p>
+            <p class="kicker">01</p>
+            <h2 class="lang-vi">Không sinh ra ở đây.</h2>
+            <h2 class="lang-en">Not native to Saigon.</h2>
+            <p class="lede lang-vi">Khoảng cách cho một góc nhìn. Thành phố này đông và nóng. Journal của nhà là cách kể Sài Gòn ra thế giới — khi journal còn sống.</p>
+            <p class="lede lang-en">Distance gave a way of looking. The city is loud and hot. The house journal was a way of sending Saigon out — when the journal is alive.</p>
           </div>
         </article>
-
-        <article class="split">
+        <article class="chapter">
           <div>
-            <p class="chapter-num">02</p>
-            <h2 class="lang-vi">Café, shop, bàn ăn.</h2>
+            <p class="kicker">02</p>
+            <h2 class="lang-vi">Café, shop, bàn.</h2>
             <h2 class="lang-en">Cafe, shop, table.</h2>
-            <p class="lede lang-vi">Buổi sáng là trứng, bánh mì sourdough, cà phê sữa đá. Giữa ngày là chỗ làm việc và gặp bạn. Chiều tối đèn xuống, thực đơn dài hơn. Bên cạnh bàn ăn là shop: linen, túi, đồ dùng nhỏ.</p>
-            <p class="lede lang-en">Mornings are eggs, sourdough, iced coffee. Midday is work and friends. In the evening the lights drop and the menu lengthens. Beside the tables, a shop of linen, bags, and small objects.</p>
+            <p class="lede lang-vi">Sáng: trứng, sourdough, cà phê sữa đá. Giữa ngày: gặp và làm việc. Tối: đèn xuống, thực đơn dài. Bên bàn là shop linen và đồ nhỏ.</p>
+            <p class="lede lang-en">Morning: eggs, sourdough, iced coffee. Midday: work and friends. Evening: the lights drop, the menu lengthens. Beside the tables, linen and small objects.</p>
           </div>
-          <img src="images/shop.jpg" alt="The shop at L'Usine">
+          <div class="postcard"><img src="images/shop.jpg" alt="The shop"></div>
         </article>
-
-        <article class="split">
-          <img src="images/evening.jpg" alt="Evening dining table">
+        <article class="chapter">
+          <div class="postcard"><img src="images/leloi-wide.jpg" alt="Downtown house, steel frames and wood"></div>
           <div>
-            <p class="chapter-num">03</p>
-            <h2 class="lang-vi">Ba cửa hàng, một giọng.</h2>
-            <h2 class="lang-en">Three rooms, one voice.</h2>
-            <p class="lede lang-vi">Lê Thánh Tôn là nhà chính giữa downtown. Crescent Mall giữ nhịp Phú Mỹ Hưng. Saigon Centre mở cửa theo giờ mall. Cùng một nhà, ba cách vào thành phố.</p>
-            <p class="lede lang-en">Le Thanh Ton is the downtown house. Crescent Mall keeps time with Phu My Hung. Saigon Centre follows mall hours. One house, three ways into the city.</p>
-            <p>
-              <a class="btn lang-vi" href="locations.html">Tới cửa hàng</a>
-              <a class="btn lang-en" href="locations.html">Go to locations</a>
-            </p>
+            <p class="kicker">03</p>
+            <h2 class="lang-vi">Sài Gòn hiện đại.</h2>
+            <h2 class="lang-en">Modern Saigon.</h2>
+            <p class="lede lang-vi">Khung inox như bưu thiếp Đông Dương. Gỗ sồi. Cầu thang xanh colonial. Đó là ngôn ngữ nhà downtown 2024 — cũ và mới trong một phòng.</p>
+            <p class="lede lang-en">Stainless frames like Indochina postcards. Ash wood. A colonial-green stair. That is the downtown house language of 2024 — old and new in one room.</p>
+            <p><a class="btn btn-dark lang-vi" href="locations.html">Tới ba nhà</a><a class="btn btn-dark lang-en" href="locations.html">Go to the houses</a></p>
           </div>
         </article>
       </div>
     </section>
   </main>
-
-  <footer class="site-footer">
-    <div class="wrap">
-      <div class="footer-grid">
-        <div>
-          <a class="logo" href="index.html">L'USINE</a>
-          <p class="lang-vi">Café, shop và bàn ăn ở Sài Gòn.</p>
-          <p class="lang-en">Cafe, shop, and table in Saigon.</p>
-        </div>
-        <div>
-          <h4>Pages</h4>
-          <a href="story.html">Story</a>
-          <a href="locations.html">Locations</a>
-          <a href="menu.html">Menu</a>
-          <a href="visit.html">Visit</a>
-        </div>
-        <div>
-          <h4>Hotline</h4>
-          <a href="tel:+842838227188">+84 28 3822 7188</a>
-          <a href="https://www.instagram.com/lusinespace/" target="_blank" rel="noreferrer">Instagram</a>
-        </div>
-        <div>
-          <h4 class="lang-vi">Giờ</h4>
-          <h4 class="lang-en">Hours</h4>
-          <p class="lang-vi">Gọi món cuối trước giờ đóng 30 phút.</p>
-          <p class="lang-en">Last order is 30 minutes before close.</p>
-        </div>
-      </div>
-      <div class="legal"><span>L'Usine Saigon</span><span>© 2026</span></div>
-    </div>
-  </footer>
+  <footer class="site-footer"><div class="wrap"><div class="legal"><span>L'Usine Saigon</span><span><a href="index.html">Home</a></span></div></div></footer>
   <script src="js/main.js"></script>
 </body>
 </html>

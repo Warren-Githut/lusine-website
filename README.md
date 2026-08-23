@@ -1,37 +1,33 @@
-# L'Usine — website mới
+# L'Usine — website mockup 2026
 
-Landing page + 4 trang con cho L'Usine (Café, Shop, Saigon).
+Website mới (không thay lusinespace.com). Cửa: phim + chọn nhà + đặt bàn. Song ngữ VI/EN.
 
-## Mở trên máy
+## Xem mockup
 
-Mở file `index.html` bằng Chrome, hoặc chạy:
+1. Mở `http://localhost:8080/mockup.html` (máy tính + điện thoại cạnh nhau)
+2. Hoặc `http://localhost:8080/` cho site đầy đủ
+
+Nếu server chưa chạy:
 
 ```
+cd C:\Users\khoans\lusine-website
 python -m http.server 8080
 ```
 
-Rồi vào `http://localhost:8080`
+## Trang
 
-## Các trang
-
-- `index.html` — trang chủ / landing
+- `index.html` — cửa
 - `story.html` — câu chuyện
-- `locations.html` — 3 cửa hàng
-- `menu.html` — món ký tên
-- `visit.html` — giờ mở cửa + form đặt bàn
+- `locations.html` — 3 nhà
+- `menu.html` — theo buổi
+- `shop.html` — 6 món
+- `journal.html` — số sống (không để Journal No.2 trên cửa)
+- `visit.html` — đặt bàn (gọi để chốt)
+- `mockup.html` — bàn trình diễn
 
-Nút **VI / EN** đổi ngôn ngữ. Trình duyệt nhớ lựa chọn.
+## GitHub
 
-## Địa chỉ dùng trên site
+https://github.com/Warren-Githut/lusine-website
+https://warren-githut.github.io/lusine-website/mockup.html
 
-Lấy từ listing công khai lusinespace.com/locations:
-
-- Lê Thánh Tôn — 19 Lê Thánh Tôn, Q1 — 7:30–21:30 — Café +84 28 3822 7188
-- Crescent Mall — GF-56, 101 Tôn Dật Tiên, Q7 — 7:30–22:00 — Café +84 28 5412 0880
-- Saigon Centre — Level 5-10, 65 Lê Lợi, Q1 — 10:00–21:30 — Café +84 28 3535 9930
-
-Form đặt bàn chưa nối hệ thống: sau khi gửi, khách được nhắc gọi cửa hàng.
-
-## GitHub Pages
-
-Trong repo: Settings → Pages → Deploy from branch `main` / folder `/` .
+Ảnh trên mockup là AI. Ra mắt cần ảnh phòng thật.

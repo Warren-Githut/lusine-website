@@ -4,82 +4,64 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Visit — L'Usine</title>
-  <meta name="description" content="Book a table or visit L'Usine in Ho Chi Minh City. Three locations, daily hours, hotline +84 28 3822 7188.">
   <link rel="icon" href="favicon.svg" type="image/svg+xml">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&family=Outfit:wght@300;400;500&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500&family=Outfit:wght@300;400;500&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-  <header class="site-header">
+  <header class="site-header is-solid">
     <a class="logo" href="index.html">L'USINE</a>
     <button class="nav-toggle" aria-label="Menu"><span></span></button>
     <nav class="nav">
-      <a class="lang-vi" href="story.html">Câu chuyện</a>
-      <a class="lang-en" href="story.html">Story</a>
-      <a class="lang-vi" href="locations.html">Cửa hàng</a>
-      <a class="lang-en" href="locations.html">Locations</a>
-      <a class="lang-vi" href="menu.html">Thực đơn</a>
-      <a class="lang-en" href="menu.html">Menu</a>
-      <a class="lang-vi active" href="visit.html">Ghé thăm</a>
-      <a class="lang-en active" href="visit.html">Visit</a>
+      <a class="lang-vi" href="story.html">Câu chuyện</a><a class="lang-en" href="story.html">Story</a>
+      <a class="lang-vi" href="locations.html">Nhà</a><a class="lang-en" href="locations.html">Houses</a>
+      <a class="lang-vi" href="menu.html">Thực đơn</a><a class="lang-en" href="menu.html">Menu</a>
+      <a href="shop.html">Shop</a>
+      <a href="journal.html">Journal</a>
+      <a class="lang-vi active" href="visit.html">Ghé thăm</a><a class="lang-en active" href="visit.html">Visit</a>
     </nav>
     <div class="header-actions">
-      <div class="lang-switch">
-        <button type="button" data-lang-btn="vi">VI</button>
-        <span>/</span>
-        <button type="button" data-lang-btn="en">EN</button>
-      </div>
+      <div class="lang-switch"><button type="button" data-lang-btn="vi">VI</button><span>/</span><button type="button" data-lang-btn="en">EN</button></div>
       <a class="btn" href="tel:+842838227188">+84 28 3822 7188</a>
     </div>
   </header>
-
-  <main id="main">
+  <main>
     <section class="page-hero wrap">
       <p class="kicker">Visit</p>
-      <h1 class="lang-vi">Ghé nhà.</h1>
-      <h1 class="lang-en">Come by.</h1>
-      <p class="lang-vi">Đặt bàn chắc nhất là gọi cửa hàng. Form dưới đây giúp bạn soạn thông tin trước khi gọi.</p>
-      <p class="lang-en">The sure way to book is to call the store. The form below helps you gather details before you dial.</p>
+      <h1 class="lang-vi">Chọn nhà. Gọi. Vào.</h1>
+      <h1 class="lang-en">Pick a house. Call. Come in.</h1>
+      <p class="lang-vi">Đặt bàn chắc nhất là gọi. Form chỉ để soạn thông tin trước.</p>
+      <p class="lang-en">The sure booking is a phone call. The form is only to gather details first.</p>
     </section>
-
-    <section class="section" style="padding-top:12px">
+    <section class="section" style="padding-top:0">
       <div class="wrap visit-layout">
-        <aside class="hours-grid" style="display:block">
-          <div class="panel">
-            <h3 class="lang-vi">Giờ mở cửa</h3>
-            <h3 class="lang-en">Hours</h3>
-            <p class="meta lang-vi"><strong>Lê Thánh Tôn</strong><br>7:30 – 21:30<br>Café +84 28 3822 7188</p>
-            <p class="meta lang-en"><strong>Le Thanh Ton</strong><br>7:30 am – 9:30 pm<br>Café +84 28 3822 7188</p>
-            <p class="meta lang-vi"><strong>Crescent Mall</strong><br>7:30 – 22:00<br>Café +84 28 5412 0880</p>
-            <p class="meta lang-en"><strong>Crescent Mall</strong><br>7:30 am – 10:00 pm<br>Café +84 28 5412 0880</p>
-            <p class="meta lang-vi"><strong>Saigon Centre</strong><br>10:00 – 21:30<br>Café +84 28 3535 9930</p>
-            <p class="meta lang-en"><strong>Saigon Centre</strong><br>10:00 am – 9:30 pm<br>Café +84 28 3535 9930</p>
-            <p class="form-note lang-vi">Gọi món cuối trước giờ đóng 30 phút.</p>
-            <p class="form-note lang-en">Last order 30 minutes before close.</p>
-          </div>
+        <aside class="panel">
+          <h3 class="lang-vi">Ba số.</h3>
+          <h3 class="lang-en">Three numbers.</h3>
+          <p class="meta"><strong>Lê Thánh Tôn</strong><br>7:30–21:30<br><a href="tel:+842838227188">+84 28 3822 7188</a></p>
+          <p class="meta"><strong>Crescent Mall</strong><br>7:30–22:00<br><a href="tel:+842854120880">+84 28 5412 0880</a></p>
+          <p class="meta"><strong>Saigon Centre</strong><br>10:00–21:30<br><a href="tel:+842835359930">+84 28 3535 9930</a></p>
+          <p class="form-note lang-vi">Gọi món cuối trước giờ đóng 30 phút.</p>
+          <p class="form-note lang-en">Last order 30 minutes before close.</p>
         </aside>
-
         <form class="panel" id="booking-form">
           <h3 class="lang-vi">Đặt bàn</h3>
           <h3 class="lang-en">Book a table</h3>
           <label class="lang-vi" for="name">Tên</label>
           <label class="lang-en" for="name">Name</label>
           <input id="name" name="name" required>
-
           <label class="lang-vi" for="phone">Số điện thoại</label>
           <label class="lang-en" for="phone">Phone</label>
           <input id="phone" name="phone" type="tel" required>
-
-          <label class="lang-vi" for="store">Cửa hàng</label>
-          <label class="lang-en" for="store">Store</label>
+          <label class="lang-vi" for="store">Nhà</label>
+          <label class="lang-en" for="store">House</label>
           <select id="store" name="store" required>
             <option value="ltt">Lê Thánh Tôn</option>
             <option value="pmh">Crescent Mall</option>
             <option value="sgc">Saigon Centre</option>
           </select>
-
           <div class="form-row">
             <div>
               <label class="lang-vi" for="date">Ngày</label>
@@ -92,53 +74,21 @@
               <input id="guests" name="guests" type="number" min="1" max="20" value="2" required>
             </div>
           </div>
-
           <label class="lang-vi" for="notes">Ghi chú</label>
           <label class="lang-en" for="notes">Notes</label>
           <textarea id="notes" name="notes"></textarea>
-
           <p style="margin-top:20px">
-            <button class="btn lang-vi" type="submit">Gửi yêu cầu</button>
-            <button class="btn lang-en" type="submit">Send request</button>
+            <button class="btn btn-dark lang-vi" type="submit">Gửi yêu cầu</button>
+            <button class="btn btn-dark lang-en" type="submit">Send request</button>
           </p>
-          <p class="form-note lang-vi">Form này chưa kết nối hệ thống đặt bàn. Sau khi gửi, hãy gọi số cửa hàng để chốt.</p>
-          <p class="form-note lang-en">This form is not connected to a booking system yet. After sending, call the store to confirm.</p>
+          <p class="form-note lang-vi">Sau khi gửi, gọi số nhà để chốt. Chưa nối hệ thống đặt bàn.</p>
+          <p class="form-note lang-en">After sending, call the house to confirm. No booking system is connected yet.</p>
           <div id="booking-success" class="form-success" role="status"></div>
         </form>
       </div>
     </section>
   </main>
-
-  <footer class="site-footer">
-    <div class="wrap">
-      <div class="footer-grid">
-        <div>
-          <a class="logo" href="index.html">L'USINE</a>
-          <p class="lang-vi">Café, shop và bàn ăn ở Sài Gòn.</p>
-          <p class="lang-en">Cafe, shop, and table in Saigon.</p>
-        </div>
-        <div>
-          <h4>Pages</h4>
-          <a href="story.html">Story</a>
-          <a href="locations.html">Locations</a>
-          <a href="menu.html">Menu</a>
-          <a href="visit.html">Visit</a>
-        </div>
-        <div>
-          <h4>Hotline</h4>
-          <a href="tel:+842838227188">+84 28 3822 7188</a>
-          <a href="https://www.instagram.com/lusinespace/" target="_blank" rel="noreferrer">Instagram</a>
-          <a href="https://www.facebook.com/Lusinespace/" target="_blank" rel="noreferrer">Facebook</a>
-        </div>
-        <div>
-          <h4>GrabFood</h4>
-          <p class="lang-vi">Cả ba cửa hàng có trên GrabFood.</p>
-          <p class="lang-en">All three houses are on GrabFood.</p>
-        </div>
-      </div>
-      <div class="legal"><span>L'Usine Saigon</span><span>© 2026</span></div>
-    </div>
-  </footer>
+  <footer class="site-footer"><div class="wrap"><div class="legal"><span>L'Usine Saigon</span><span>Hotline +84 28 3822 7188</span></div></div></footer>
   <script src="js/main.js"></script>
 </body>
 </html>

@@ -4,146 +4,97 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Menu — L'Usine</title>
-  <meta name="description" content="Signature dishes at L'Usine: breakfast, Vietnamese plates, burgers, coffee, and evening table.">
   <link rel="icon" href="favicon.svg" type="image/svg+xml">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&family=Outfit:wght@300;400;500&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500&family=Outfit:wght@300;400;500&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-  <header class="site-header">
+  <header class="site-header is-solid">
     <a class="logo" href="index.html">L'USINE</a>
     <button class="nav-toggle" aria-label="Menu"><span></span></button>
     <nav class="nav">
-      <a class="lang-vi" href="story.html">Câu chuyện</a>
-      <a class="lang-en" href="story.html">Story</a>
-      <a class="lang-vi" href="locations.html">Cửa hàng</a>
-      <a class="lang-en" href="locations.html">Locations</a>
-      <a class="lang-vi active" href="menu.html">Thực đơn</a>
-      <a class="lang-en active" href="menu.html">Menu</a>
-      <a class="lang-vi" href="visit.html">Ghé thăm</a>
-      <a class="lang-en" href="visit.html">Visit</a>
+      <a class="lang-vi" href="story.html">Câu chuyện</a><a class="lang-en" href="story.html">Story</a>
+      <a class="lang-vi" href="locations.html">Nhà</a><a class="lang-en" href="locations.html">Houses</a>
+      <a class="lang-vi active" href="menu.html">Thực đơn</a><a class="lang-en active" href="menu.html">Menu</a>
+      <a href="shop.html">Shop</a>
+      <a href="journal.html">Journal</a>
+      <a class="lang-vi" href="visit.html">Ghé thăm</a><a class="lang-en" href="visit.html">Visit</a>
     </nav>
     <div class="header-actions">
-      <div class="lang-switch">
-        <button type="button" data-lang-btn="vi">VI</button>
-        <span>/</span>
-        <button type="button" data-lang-btn="en">EN</button>
-      </div>
-      <a class="btn lang-vi" href="visit.html">Đặt bàn</a>
-      <a class="btn lang-en" href="visit.html">Book a table</a>
+      <div class="lang-switch"><button type="button" data-lang-btn="vi">VI</button><span>/</span><button type="button" data-lang-btn="en">EN</button></div>
+      <a class="btn lang-vi" href="visit.html">Đặt bàn</a><a class="btn lang-en" href="visit.html">Book a table</a>
     </div>
   </header>
-
-  <main id="main">
+  <main>
     <section class="page-hero wrap">
       <p class="kicker">Menu</p>
-      <h1 class="lang-vi">Những món nhà hay làm.</h1>
-      <h1 class="lang-en">What the house cooks well.</h1>
-      <p class="lang-vi">Đây là các món ký tên, không phải thực đơn đầy đủ. Giá và món theo mùa đổi tại quán.</p>
-      <p class="lang-en">These are signatures, not the full menu. Prices and seasonal plates change in store.</p>
+      <h1 class="lang-vi">Theo buổi, không dump PDF.</h1>
+      <h1 class="lang-en">By time of day, not a PDF dump.</h1>
+      <p class="lang-vi">Món ký tên. Giá và món mùa đổi tại quán.</p>
+      <p class="lang-en">Signatures. Seasonal plates and prices change in the room.</p>
     </section>
-
-    <section class="section" style="padding-top:12px">
+    <section class="section" style="padding-top:0">
       <div class="wrap menu-grid">
         <article class="card">
-          <img src="images/breakfast.jpg" alt="Eggs on sourdough with iced coffee">
+          <img src="images/breakfast.jpg" alt="Breakfast">
           <div class="menu-item">
-            <span class="tag lang-vi">Bữa sáng cả ngày</span>
-            <span class="tag lang-en">All-day breakfast</span>
+            <span class="tag lang-vi">Sáng cả ngày</span><span class="tag lang-en">All-day breakfast</span>
             <h3>L'Usine Breakfast</h3>
-            <p class="meta lang-vi">Trứng chiên, rau bina, bacon, nấm, cà chua nướng, bánh mì sourdough.</p>
-            <p class="meta lang-en">Fried eggs, spinach, bacon, mushrooms, roast tomato, sourdough.</p>
+            <p class="meta lang-vi">Trứng, rau bina, bacon, nấm, cà chua nướng, sourdough.</p>
+            <p class="meta lang-en">Eggs, spinach, bacon, mushrooms, roast tomato, sourdough.</p>
           </div>
         </article>
         <article class="card">
-          <img src="images/pho.jpg" alt="Beef pho">
+          <img src="images/pho.jpg" alt="Pho">
           <div class="menu-item">
-            <span class="tag lang-vi">Món Việt</span>
-            <span class="tag lang-en">Vietnamese</span>
-            <h3 class="lang-vi">Phở bò</h3>
-            <h3 class="lang-en">Phở bò</h3>
-            <p class="meta lang-vi">Nạm, gầu, bò viên. Ăn chậm, thêm chanh và rau thơm.</p>
-            <p class="meta lang-en">Brisket, tenderloin, meatballs. Lime and herbs at the table.</p>
+            <span class="tag lang-vi">Trưa</span><span class="tag lang-en">Midday</span>
+            <h3>Phở bò</h3>
+            <p class="meta lang-vi">Nạm, gầu, bò viên. Chanh và rau thơm.</p>
+            <p class="meta lang-en">Brisket, tenderloin, meatballs. Lime and herbs.</p>
           </div>
         </article>
         <article class="card">
-          <img src="images/coffee.jpg" alt="Espresso">
-          <div class="menu-item">
-            <span class="tag">Café</span>
-            <h3 class="lang-vi">Cà phê</h3>
-            <h3 class="lang-en">Coffee</h3>
-            <p class="meta lang-vi">Espresso, bạc xỉu, cà phê sữa đá. Uống chậm.</p>
-            <p class="meta lang-en">Espresso, iced milk coffee, the long morning cup.</p>
-          </div>
-        </article>
-        <article class="card">
-          <img src="images/evening.jpg" alt="Evening pasta and salad">
-          <div class="menu-item">
-            <span class="tag lang-vi">Bàn tối</span>
-            <span class="tag lang-en">Evening</span>
-            <h3 class="lang-vi">Pasta, salad, steak</h3>
-            <h3 class="lang-en">Pasta, salad, steak</h3>
-            <p class="meta lang-vi">Thực đơn dài hơn sau 18:00. Rượu vang, bia, cocktail.</p>
-            <p class="meta lang-en">The longer menu after 6 pm. Wine, beer, cocktails.</p>
-          </div>
-        </article>
-        <article class="card">
+          <img src="images/burger.jpg" alt="Burger">
           <div class="menu-item">
             <span class="tag">House</span>
             <h3>L'Usine Beef Burger</h3>
-            <p class="meta lang-vi">Bacon, phô mai, jalapeño, hành caramel, khoai tây chiên.</p>
+            <p class="meta lang-vi">Bacon, phô mai, jalapeño, hành caramel, khoai.</p>
             <p class="meta lang-en">Bacon, cheese, jalapeños, caramelised onions, fries.</p>
           </div>
         </article>
         <article class="card">
+          <img src="images/coffee.jpg" alt="Coffee">
           <div class="menu-item">
-            <span class="tag lang-vi">Cơm &amp; bún</span>
-            <span class="tag lang-en">Rice &amp; noodles</span>
-            <h3 class="lang-vi">Cơm gà L'Usine · Bún thịt nướng</h3>
-            <h3 class="lang-en">L'Usine chicken rice · Bún thịt nướng</h3>
-            <p class="meta lang-vi">Món nhà, ăn trưa rõ ràng.</p>
-            <p class="meta lang-en">House plates. Clear, mid-day food.</p>
+            <span class="tag">Café</span>
+            <h3 class="lang-vi">Cà phê</h3><h3 class="lang-en">Coffee</h3>
+            <p class="meta lang-vi">Espresso, bạc xỉu, cà phê sữa đá.</p>
+            <p class="meta lang-en">Espresso, iced milk coffee, the long cup.</p>
+          </div>
+        </article>
+        <article class="card">
+          <img src="images/evening.jpg" alt="Evening table">
+          <div class="menu-item">
+            <span class="tag lang-vi">Sau 18:00</span><span class="tag lang-en">After 6 pm</span>
+            <h3 class="lang-vi">Pasta, salad, steak</h3><h3 class="lang-en">Pasta, salad, steak</h3>
+            <p class="meta lang-vi">Thực đơn dài. Rượu, bia, cocktail.</p>
+            <p class="meta lang-en">The longer menu. Wine, beer, cocktails.</p>
+          </div>
+        </article>
+        <article class="card">
+          <div class="menu-item">
+            <span class="tag lang-vi">Cơm &amp; bún</span><span class="tag lang-en">Rice &amp; noodles</span>
+            <h3 class="lang-vi">Cơm gà · Bún thịt nướng</h3>
+            <h3 class="lang-en">Chicken rice · Bún thịt nướng</h3>
+            <p class="meta lang-vi">Món nhà, ăn trưa rõ.</p>
+            <p class="meta lang-en">House plates. Clear midday food.</p>
           </div>
         </article>
       </div>
-      <div class="wrap" style="margin-top:36px">
-        <a class="btn lang-vi" href="visit.html">Đặt bàn</a>
-        <a class="btn lang-en" href="visit.html">Book a table</a>
-      </div>
     </section>
   </main>
-
-  <footer class="site-footer">
-    <div class="wrap">
-      <div class="footer-grid">
-        <div>
-          <a class="logo" href="index.html">L'USINE</a>
-          <p class="lang-vi">Café, shop và bàn ăn ở Sài Gòn.</p>
-          <p class="lang-en">Cafe, shop, and table in Saigon.</p>
-        </div>
-        <div>
-          <h4>Pages</h4>
-          <a href="story.html">Story</a>
-          <a href="locations.html">Locations</a>
-          <a href="menu.html">Menu</a>
-          <a href="visit.html">Visit</a>
-        </div>
-        <div>
-          <h4>Hotline</h4>
-          <a href="tel:+842838227188">+84 28 3822 7188</a>
-        </div>
-        <div>
-          <h4 class="lang-vi">Lưu ý</h4>
-          <h4 class="lang-en">Note</h4>
-          <p class="lang-vi">Không niêm yết giá trên web vì giá đổi theo mùa.</p>
-          <p class="lang-en">Prices stay in-house because they move with the season.</p>
-        </div>
-      </div>
-      <div class="legal"><span>L'Usine Saigon</span><span>© 2026</span></div>
-    </div>
-  </footer>
+  <footer class="site-footer"><div class="wrap"><div class="legal"><span>L'Usine Saigon</span><span><a href="visit.html">Book</a></span></div></div></footer>
   <script src="js/main.js"></script>
 </body>
 </html>
